@@ -10,20 +10,21 @@ function Navigation() {
     return (
       <>
 
-        <Navbar bg="primary" data-bs-theme="dark">
-            <Row>
+        <Navbar bg="primary" data-bs-theme="dark" className="pb-0" >
+            
 
-                <Col xs={5}>
+                <Col xs={3} >
             <Navbar.Text>
-                <h1> 
+                <h1 className='text-white' > 
                     Martha Hayes
                 </h1>
             </Navbar.Text>
                 </Col>
 
-        <Col xs={7}>
-          <Container className="justify-content-end" activeKey="/">
-          <ul className="nav nav-tabs">
+        <Col xs={9} >
+        {/* Below line had the following: activeKey="/" */}
+          <Container className="pb-0 mb-0" >
+          <ul className="nav nav-tabs justify-content-end">
         <li className="nav-item">
           <Link
             to="/"
@@ -60,7 +61,7 @@ function Navigation() {
           </Container>
         </Col>
 
-          </Row>
+        
         </Navbar>
       </>
     );

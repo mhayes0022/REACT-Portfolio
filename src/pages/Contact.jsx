@@ -15,7 +15,12 @@ export default function Contact() {
   };
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+    <Form noValidate validated={validated} onSubmit={handleSubmit} className="pb-3 pt-2">
+
+      <h2 className="fst-italic fw-normal">
+        Contact
+      </h2>
+
       <Row>
         <Col xs={3} >
           <Form.Group className="" controlId="" >

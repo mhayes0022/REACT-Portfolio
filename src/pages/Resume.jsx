@@ -1,7 +1,9 @@
 export default function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
+      <h2 className="fst-italic fw-normal">
+        Resume
+      </h2>
       <p>
         Formerly Blog, then Projects
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.

@@ -1,7 +1,9 @@
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio Page</h1>
+      <h2 className="fst-italic fw-normal">
+        Portfolio Page
+      </h2>
       <p>
         Formerly the About Page
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

@@ -7,8 +7,8 @@ import Navigation from './Navigation'
 
 function Header() {
     return (
-        <Container fluid>
-          <Row>
+        <Container fluid >
+          <Row >
             <Navigation />
           </Row>
         </Container>
