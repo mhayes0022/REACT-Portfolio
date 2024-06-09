@@ -1,21 +1,56 @@
+import { useState } from 'react';
+import { Form, Button, InputGroup, Col, Row } from 'react-bootstrap';
+
 export default function Contact() {
+  const [validated, setValidated] = useState(false);
+
+  const handleSubmit = (event) => {
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    setValidated(true);
+  };
+
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Was and remains Contact
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+      <Row>
+        <Col xs={3} >
+          <Form.Group className="" controlId="" >
+            <Form.Label>Name</Form.Label>
+            <Form.Control placeholder="Name" />
+          </Form.Group>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col xs={3} >
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Email address</Form.Label>
+            <InputGroup hasValidation>
+              <Form.Control type="email" placeholder="Enter email" required />
+              <Form.Control.Feedback type="invalid">
+                Please enter your email address.
+              </Form.Control.Feedback>
+            </InputGroup>
+          </Form.Group>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col xs={7} >
+          <Form.Group className="mb-3" controlId="">
+            <Form.Label>Message</Form.Label>
+            <Form.Control as="textarea" rows={3} />
+          </Form.Group>
+        </Col>
+      </Row>
+
+      <Button variant="primary" type="submit">
+        Submit
+      </Button>
+    </Form>
   );
 }

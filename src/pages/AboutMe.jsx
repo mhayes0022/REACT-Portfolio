@@ -1,9 +1,20 @@
+import { Image, Col, Container, Row } from 'react-bootstrap';
+
 export default function AboutMe() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
+
+      <Container>
+      <Row>
+        <Col xs={6} md={4}>
+          <Image src="holder.js/171x180" rounded />
+        </Col>
+      </Row>
+    </Container>
       <p>
-        Formerly Home
+        Formerly Home 
+        This section will include a short bio. 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
         ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
