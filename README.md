@@ -6,8 +6,17 @@ This application functions as a REACT portfolio of work samples. On the main pag
 
 ## Website Link
 
+https://react-portfolio-ntz2.onrender.com/
 
 ## Screenshot
+
+![React Portfolio-main](https://github.com/mhayes0022/REACT-Portfolio/assets/153241703/4577e96e-c5fc-4e8f-a913-bbfd95f9d401)
+
+![React Portfolio- projects](https://github.com/mhayes0022/REACT-Portfolio/assets/153241703/0825f32d-5cbb-41d6-8e52-3806a1569d2a)
+
+![React Portfolio-resume](https://github.com/mhayes0022/REACT-Portfolio/assets/153241703/7da23bfd-e611-4257-99c7-032db86996b4)
+
+![React Portfolio-contact](https://github.com/mhayes0022/REACT-Portfolio/assets/153241703/6ffd4a26-7c63-4e53-aa40-1c473cc6b091)
 
 
 ## Credits
