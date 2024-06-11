@@ -14,7 +14,7 @@ function App() {
     </div>
     
 {/* Note: Can make the container below full width of display by using 'fluid' */}
-    <Container className="main-content bg-danger text-white" >
+    <Container fluid className="main-content bg-danger text-white" >
       <main className="mx-3">
         <Outlet />
       </main>
