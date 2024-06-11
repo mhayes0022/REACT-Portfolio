@@ -21,7 +21,7 @@ const projectData = [
   {
     title: 'What is the Weather?',
     description: 'A weather forecasting application using server side API. ',
-    imgSrc: '/static/media/WhatstheWeather.jpg',
+    imgSrc: 'https://react-portfolio-ntz2.onrender.com/static/media/WhatstheWeather.jpg',
     altTag: 'Weather Dashboard with five day forecast and current weather.',
     githubLink: 'https://github.com/mhayes0022/challenge6',
     deployedLink: 'https://mhayes0022.github.io/challenge6/',
