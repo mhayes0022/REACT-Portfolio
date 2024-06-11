@@ -16,7 +16,7 @@ function Project(props) {
         className="mb-2" >
 
         {/* <Card.Img variant="top" src="src/assets/images/profile1.jpg" alt="Picture of a project" /> */}
-        <Card.Img variant="top" src={props.src} alt={props.altTag} />
+        <Card.Img variant="top" src={props.imgSrc} alt={props.altTag} />
 
             {/* <Container>
                 <Card.ImgOverlay>

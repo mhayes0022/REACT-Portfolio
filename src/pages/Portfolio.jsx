@@ -5,7 +5,7 @@ const projectData = [
   {
     title: 'Book Search Engine',
     description: 'A Google Books API search engine built using GraphQL and using the MERN stack.',
-    src: '/assets/images/ReactBookSearch-login.jpg',
+    imgSrc: 'src/assets/images/ReactBookSearch-login.jpg',
     altTag: 'Deployed React Book Search main page and login',
     githubLink: 'https://github.com/mhayes0022/Challenge21',
     deployedLink: 'https://challenge21.onrender.com/',
@@ -13,7 +13,7 @@ const projectData = [
   {
     title: 'PWA Text Editor',
     description: 'A text editor which runs in the browser and meets PWA criteria.',
-    src: '/assets/images/PWAEditor.jpg',
+    imgSrc: 'src/assets/images/PWAEditor.jpg',
     altTag: 'Deployed PWA Text Editor main page.',
     githubLink: 'https://github.com/mhayes0022/challenge19',
     deployedLink: 'https://pwa-texteditor-7qhf.onrender.com/',
@@ -21,7 +21,7 @@ const projectData = [
   {
     title: 'What is the Weather?',
     description: 'A weather forecasting application using server side API. ',
-    src: '/assets/images/WhatstheWeather.jpg',
+    imgSrc: 'src/assets/images/WhatstheWeather.jpg',
     altTag: 'Weather Dashboard with five day forecast and current weather.',
     githubLink: 'https://github.com/mhayes0022/challenge6',
     deployedLink: 'https://mhayes0022.github.io/challenge6/',
@@ -29,7 +29,7 @@ const projectData = [
   {
     title: 'Coding Quiz',
     description: 'Built using dynamically updated HTML and CSS, and powered by JavaScript.',
-    src: 'src/assets/images/CodingQuizmain.jpg',
+    imgSrc: 'src/assets/images/CodingQuizmain.jpg',
     altTag: 'Coding Quiz main page',
     githubLink: 'https://github.com/mhayes0022/challenge4',
     deployedLink: 'https://mhayes0022.github.io/challenge4/',
@@ -37,7 +37,7 @@ const projectData = [
   {
     title: 'Tell Me What Happened!',
     description: 'This application searches mulitple APIs to return what happened on a given day in history.',
-    src: 'src/assets/images/TellMeWhatHappened2.jpg',
+    imgSrc: 'src/assets/images/TellMeWhatHappened2.jpg',
     altTag: 'Search results from the New York Times',
     githubLink: 'https://github.com/owenphineas/tell-me-what-happened',
     deployedLink: 'https://owenphineas.github.io/tell-me-what-happened/',
@@ -45,7 +45,7 @@ const projectData = [
   {
     title: 'Note Taker',
     description: 'A note application using Express.js that saves and retrieves notes from a JSON file.',
-    src: 'src/assets/images/NoteTakerEx.jpg',
+    imgSrc: 'src/assets/images/NoteTakerEx.jpg',
     altTag: 'A note taking application',
     githubLink: 'https://github.com/mhayes0022/challenge11',
     deployedLink: 'https://notetaker0022-b3a3ffc993f3.herokuapp.com/',
