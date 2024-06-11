@@ -5,7 +5,7 @@ const projectData = [
   {
     title: 'Book Search Engine',
     description: 'A Google Books API search engine built using GraphQL and using the MERN stack.',
-    imgSrc: '/images/ReactBookSearch-login.jpg',
+    imgSrc: 'dist/assets/images/ReactBookSearch-login.jpg',
     altTag: 'Deployed React Book Search main page and login',
     githubLink: 'https://github.com/mhayes0022/Challenge21',
     deployedLink: 'https://challenge21.onrender.com/',
