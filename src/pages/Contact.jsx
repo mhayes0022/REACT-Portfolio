@@ -22,6 +22,12 @@ export default function Contact() {
       </h2>
 
       <Row>
+        <Form.Text className="fs-5 fw-bold">
+          Questions? Feel free to contact me!
+        </Form.Text>
+      </Row>
+
+      <Row>
         <Col xs={3} >
           <Form.Group className="" controlId="" >
             <Form.Label>Name</Form.Label>

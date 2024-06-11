@@ -14,19 +14,11 @@ export default function AboutMe() {
         </Col>
       </Row>
     </Container >
-      <p className="ms-5">
-        Formerly Home 
+      <p className="ms-5"> 
         This section will include a short bio. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+        For now, this is placeholder text. Please note, 
+        I have no recent photos of myself, but am in the process 
+        of having profesional headshots taken.
       </p>
     </div>
   );
