@@ -5,7 +5,7 @@ const projectData = [
   {
     title: 'Book Search Engine',
     description: 'A Google Books API search engine built using GraphQL and using the MERN stack.',
-    imgSrc: 'src/assets/images/ReactBookSearch-login.jpg',
+    imgSrc: 'build/static/media/ReactBookSearch-login.jpg',
     altTag: 'Deployed React Book Search main page and login',
     githubLink: 'https://github.com/mhayes0022/Challenge21',
     deployedLink: 'https://challenge21.onrender.com/',
@@ -13,7 +13,7 @@ const projectData = [
   {
     title: 'PWA Text Editor',
     description: 'A text editor which runs in the browser and meets PWA criteria.',
-    imgSrc: 'src/assets/images/PWAEditor.jpg',
+    imgSrc: '/static/media/PWAEditor.jpg',
     altTag: 'Deployed PWA Text Editor main page.',
     githubLink: 'https://github.com/mhayes0022/challenge19',
     deployedLink: 'https://pwa-texteditor-7qhf.onrender.com/',
